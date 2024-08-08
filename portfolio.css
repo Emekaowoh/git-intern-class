@@ -1,12 +1,19 @@
-.box3{
-    display: grid;
-    grid-template-columns: repeat(3,300px);
-    margin-left: 10%;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.box4{
+    display: flex;
+    align-items: center;
+    /* grid-template-columns: repeat(3,300px); */
+   padding-left: 25%;
+    background-color: #24253C;
 }
 
-/* body{
-    width:1000px;"
-} */
+body{
+    width:1400px;
+}
 
 .navBar{
     display: flex;
@@ -14,7 +21,8 @@
     align-items: center;
     box-shadow: 0px 2px 3px #ccc;
     padding: 10px;
-    width: 100%;
+    /* width: 100%; */
+    width: 1400px;
     /* position: fixed; */
     background-color: white;
     /* z-index: 1; */
@@ -24,8 +32,10 @@
 .Letspace {
     letter-spacing: 5px;
 }
+
 .navBar a {
     text-decoration: none;
+    
 }
 
 .bar a {
@@ -47,4 +57,127 @@
 
 .img1 img {
     position: relative;
+    width: 100%;
+}
+
+.header1 {
+    top: 550px;
+    left: 350px;
+    color:red ;
+    /* position: absolute; */
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.img2{
+    margin-top: 100px;
+    height: 600px;
+}
+
+.SEC1 {
+    position: absolute;
+    bottom: -78px;
+    left: -37px;
+}
+
+
+.header2 {
+    top: 600px;
+    left: 475px;
+    color:#888 ;
+    /* position: absolute;  */
+}
+
+.HD0 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body2 {
+    width: 100%;
+    background-color:#1E2131;  
+    margin-top: -25px;  
+   
+
+}
+.body5{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 500px 600px;
+    height: 600px;
+}
+
+.sec2 {
+    /* display: flex; */
+}
+.bodyp p{
+    color: red;
+    /* margin-top: 90px; */
+}
+.body2txt h2{
+    color: white;
+    /* margin-top: 30px; */
+
+}
+.P2 {
+    color: #767A87;
+}
+
+.box {
+    border-style: groove;
+    border-color: #F55556;
+    padding: 25px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 100px;
+    background-color: #F55556;
+}
+.box li {
+    color: white;
+}
+
+.box3 {
+    background-color: #24253C;
+
+}
+.P3 p {
+    color: #F55556;
+    margin-left: 196px;
+    
+}
+
+.MS {
+    margin-left: 196px;
+}
+.box3 h3 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.bx1 {
+    color: white;
+    border-style: groove;
+    border-color: #F55556;
+    padding: 17px;
+}
+
+.bx2 {
+    color: white;
+    border-style: groove;
+    border-color: #F55556;
+    margin-left: 50px;
+    padding: 17px;
+
+}
+
+.bx3 {
+    color: white;
+    border-style: groove;
+    border-color: #F55556;
+    margin-left: 50px;
+    padding: 17px;
 }
