@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:dimgrey;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 3px #ccc;
+    padding: 10px;
+    /* width: 100%; */
+    /* position: fixed; */
+    background-color: white;
+    /* z-index: 1; */
+    
+}
+
+.Letspace {
+    letter-spacing: 5px;
+}
+
+.navBar a {
+    text-decoration: none;
+    
+}
+
+.bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.home a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.EP {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img1 img {
+    position: relative;
+}
+
+
+.SEC1 {
+    position: absolute;
+    bottom: 20px;
+    left: 390px;
+}
+
+.SEC1 h2{
+    color: red;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.SEC1 p {
+    color: #888;
+}
+
+.body2 {
+    background-color: #1E2131;
+    display: flex;
+    margin-top: -4px;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+}
+
+.body2 img{
+    margin-left: 350px;
+
+}
+
+.body3 {
+    margin-right: 170px;
+    margin-top: 100px;
+}
+
+.body3 h3{
+    color: red;
+}
+
+.body3 h2{
+    color: white;
+}
+
+.body3 p{
+    color:#767A87 ;
+}
+
+.box li{
+    color: white;
+}
+
+
+.box{
+    border-style: groove;
+    border-color: #F55556;
+    padding: 25px;
+}
+
+button{
+    padding: 10px;
+    margin-top: 100px;
+    background-color: #F55556;
+}
+
+
+.body4{
+    background-color:#24253C ;
+}
+
+.bodytxt h4{
+    color: red;
+    margin-left: 50px;
+}
+
+.bodytxt h2{
+    color: white;
+    margin-left: 50px;
+}
+
+
+.body5 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.bx1{
+    border-style: groove;
+    border-color: #F55556;
+    padding: 17px;
+}
+
+
+.bx2{
+    border-style: groove;
+    border-color: #F55556;
+    padding: 17px;
+}
+
+.bx3{
+    border-style: groove;
+    border-color: #F55556;
+    padding: 17px;
+}
